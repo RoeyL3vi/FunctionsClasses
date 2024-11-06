@@ -25,7 +25,7 @@ public class Main{
         
         //keeps asking if you want to calculate area until you say no
         do {
-            System.out.println("Would you like calculate the area for a circle, rectangle, triangle or trapezoid? (circle/rectangle/triangle/trapezoid/no)"); 
+            System.out.println("Would you like to calculate the area for a circle, rectangle, triangle or trapezoid? (circle/rectangle/triangle/trapezoid/no)"); 
             String shape = input.nextLine().toLowerCase();
             //if you input that you want to see the area of a rectangle it asks you for the length and width
             if(shape.equals("rectangle")){
